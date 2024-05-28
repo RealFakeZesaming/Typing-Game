@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: gray;
+}
+
+.game-contain {
+    text-align: center;
+    background: white;
+    padding: 50px;
+    box-shadow: 0 0 10px rgb(0,0,0.1);
+    border-radius: 10px;
+}
+
+#word-display {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+#start-button {
+    padding: 10px 20px;
+    font-size: 24px;
+    margin-top: 10px;
+
+/* personal add */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0,0,0.1);
+}
+
+/* Personal add */
+#start-button:hover {
+    color: white;
+    background-color: blue;
+    transition-duration: 250ms;
+}
+
+#word-input {
+    width: 200px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#score {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#game-timer {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
